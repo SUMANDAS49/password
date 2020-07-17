@@ -7,6 +7,7 @@ function login(){
     if((auth.uname===lName)&&(auth.pass===lPass))
     {
         console.log("successful");
+        window.open('contants/my.html')
     }
     else{
         console.log('unsuccessful')
